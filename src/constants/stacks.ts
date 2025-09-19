@@ -3,7 +3,11 @@
 
 const stacks = {
     ts: {
-        label: "Typescript",
+        label: "TypeScript",
+        href: "https://www.typescriptlang.org/"
+    },
+    js: {
+        label: "JavaScript",
         href: "https://www.typescriptlang.org/"
     },
     react: {
@@ -13,6 +17,18 @@ const stacks = {
     next: {
         label: "Next.js",
         href: "https://nextjs.org/"
+    },
+    vite: {
+        label: "Vite",
+        href: "https://vitejs.dev/"
+    },
+    webpack: {
+        label: "Webpack",
+        href: "https://webpack.js.org/"
+    },
+    scss: {
+        label: "SCSS",
+        href: "https://sass-lang.com/"
     },
     tailwind: {
         label: "Tailwind CSS",
@@ -34,9 +50,9 @@ const stacks = {
         label: "React Query",
         href: "https://tanstack.com/query/"
     },
-    vite: {
-        label: "Vite",
-        href: "https://vitejs.dev/"
+    router: {
+        label: "React Router",
+        href: "https://reactrouter.com/"
     },
     iron: {
         label: "Iron Session",
@@ -49,6 +65,30 @@ const stacks = {
     gmaps: {
         label: "Google Maps API",
         href: "https://developers.google.com/maps/"
+    },
+    chart: {
+        label: "Chart.js",
+        href: "https://www.chartjs.org/"
+    },
+    jest: {
+        label: "Jest",
+        href: "https://jestjs.io/"
+    },
+    vitest: {
+        label: "Vitest",
+        href: "https://vitest.dev/"
+    },
+    motion: {
+        label: "Framer Motion",
+        href: "https://motion.dev/"
+    },
+    vercel: {
+        label: "Vercel",
+        href: "https://vercel.com/"
+    },
+    firebase: {
+        label: "Firebase",
+        href: "hhttps://firebase.google.com/"
     }
 }
 
