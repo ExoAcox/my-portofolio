@@ -16,10 +16,10 @@ interface Props {
 }
 
 const Card: React.FC<Props> = ({ date, title, desc, links }) => {
-    return <div className="flex flex-col md:flex-row gap-12 gap-y-1 py-4 lg:px-6">
-        <div className="w-[136px] mt-1 text-sm">{date}</div>
-        <div className="flex-1">
-            <label className="font-bold text-base">{title}</label>
+    return <div className="group flex flex-col md:flex-row gap-10 gap-y-1 rounded-md py-4 lg:px-6 sm:hover:bg-black/25 duration-500">
+        <div className="w-[136px] mt-1.5 text-xs font-medium">{date}</div>
+        <div className="flex-1 mb-1">
+            <label className="font-bold text-base group-hover:text-sky-300">{title}</label>
             <p className="mt-2 mb-4 text-sm">{desc}</p>
             <div className="flex flex-wrap gap-3 text-xs text-white max-w-[360px]">
                 {links?.map(link => {

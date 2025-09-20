@@ -8,7 +8,7 @@ const stacks = {
     },
     js: {
         label: "JavaScript",
-        href: "https://www.typescriptlang.org/"
+        href: "https://www.javascript.com/"
     },
     react: {
         label: "React",

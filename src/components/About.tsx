@@ -6,7 +6,7 @@ const About: React.FC = () => {
 
     return <div>
         <SectionTitle>ABOUT</SectionTitle>
-        <p className="lg:px-6 mb-25">
+        <p className="lg:px-6">
             I’m a Front End Developer passionate about crafting accessible, pixel-perfect user interfaces that balance thoughtful design with robust engineering. I love working at the intersection of design and development, creating experiences that not only look great but are also performant and user-friendly.
             <br /><br />
             Currently, I work as a Freelance Front-End Developer, helping clients build modern web applications using React, Next.js, and various state management and styling solutions. My focus is on delivering clean, testable, and maintainable code while ensuring an excellent user experience.
