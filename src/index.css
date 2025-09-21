@@ -8,15 +8,15 @@
     --font-sans: "Inter", sans-serif;
     --spacing-999: 1280px;
 
-    --color-base-light: #e2e8f0;
-    --color-base-dark: #27272a;
-    --color-background-light: #ffffff;
-    --color-background-dark: #212121;
+    --color-primary: var(--color-slate-100);
+    --color-secondary: var(--color-slate-400);
+    --color-tertiary: var(--color-sky-300);
+
 }
 
 @layer base {
     body {
-        @apply overflow-x-hidden text-sm md:text-base text-base-light bg-background-dark antialiased dark:bg-background-light dark:text-base-dark;
+        @apply overflow-x-hidden text-sm md:text-base text-secondary bg-gray-900 antialiased;
     }
 
     button {

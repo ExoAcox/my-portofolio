@@ -3,8 +3,8 @@ import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa6";
 
 
 const Quote: React.FC = () => {
-    return <div className="">
-        <p className="italic px-6 max-w-[560px] text-justify leading-6.5">
+    return <div className="text-slate-300">
+        <p className="italic lg:px-6 max-w-[560px] text-justify leading-relaxed">
             <span className="relative">
                 <span className="invisible w-6 inline-block"></span>
                 <FaQuoteLeft className="absolute top-0 left-0" />

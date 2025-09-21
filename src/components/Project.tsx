@@ -5,7 +5,7 @@ import stackData from "@constants/stacks";
 import SectionTitle from "./SectionTitle";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 
-interface Props {
+interface CardProps {
     image: string;
     title: string;
     desc: string;
@@ -18,41 +18,46 @@ interface Props {
 }
 
 
-const Card: React.FC<Props> = ({ image, title, desc, stacks, href, links }) => {
-    return <div className="flex flex-col-reverse sm:pl-4 sm:pr-6 sm:py-4 rounded-md sm:flex-row gap-8 gap-y-6 sm:hover:bg-black/25">
+const Card: React.FC<CardProps> = ({ image, title, desc, stacks, href, links }) => {
+    return <div className="flex flex-col-reverse sm:pl-4 sm:pr-6 sm:py-4 rounded-md sm:flex-row gap-8 gap-y-6 group sm:hover:bg-black/25">
         <div className="w-full max-w-[260px] sm:max-w-[300px] h-[200px] bg-blue-300 rounded">
             <img src={image} alt="" />
         </div>
         <div className="flex-1 min-w-[300px]">
             <div className="flex gap-4 items-end justify-between">
                 <a href={href} target="_blank">
-                    <h4 className="flex items-end gap-1 group w-fit hover:text-sky-300">
+                    <h4 className="flex items-end gap-1 group/link w-fit text-primary group-hover:text-tertiary">
                         {title}
-                        <HiMiniArrowUpRight className="size-5 transition -translate-y-0.5 group-hover:-translate-y-1.5 group-hover:translate-x-1.5" />
+                        <HiMiniArrowUpRight className="size-5 transition -translate-y-0.5 group-hover/link:-translate-y-1.5 group-hover/link:translate-x-1.5" />
                     </h4>
                 </a>
                 <div className="flex gap-4 text-sm -translate-y-1.5">
                     {links?.map(link => {
                         return <a href={link.href} key={link.href} target="_blank">
-                            <span className="flex items-end gap-0.5 group w-fit hover:text-sky-300 underline text-xs">
+                            <span className="flex items-end gap-0.5 group/link w-fit hover:text-tertiary underline text-xs">
                                 {link.label}
-                                <HiMiniArrowUpRight className="size-3 transition translate-y-0.25 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                                <HiMiniArrowUpRight className="size-3 transition translate-y-0.25 group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
                             </span>
                         </a>
                     })}
                 </div>
             </div>
-            <p className="mt-2 mb-4 text-sm">{desc}</p>
+            <p className="mt-2 mb-4 text-sm group-hover:text-primary">{desc}</p>
             <div className="flex flex-wrap gap-3 text-xs font-medium">
                 {stacks.map(stack => {
-                    return <a key={stack} href={stackData[stack].href} target="_blank" className="py-1 px-3 bg-sky-400/10 text-sky-300 rounded-xl">{stackData[stack].label}</a>
+                    return <a key={stack} href={stackData[stack].href} target="_blank" className="py-1 px-3 bg-sky-400/10 text-tertiary rounded-xl">{stackData[stack].label}</a>
                 })}</div>
         </div>
     </div>
 }
 
-const Project = () => {
-    return <div className="relative z-[2]">
+
+interface Props {
+    ref: React.RefObject<HTMLDivElement | null>
+}
+
+const Project: React.FC<Props> = ({ ref }) => {
+    return <div className="relative z-[2] scroll-mt-24" ref={ref} id="project">
         <SectionTitle>FEATURED PROJECTS</SectionTitle>
         <div className="flex flex-col gap-24 lg:gap-12 mt-4">
             {projects.map(project => {

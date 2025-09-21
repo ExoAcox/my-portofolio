@@ -52,6 +52,11 @@ const experiences = [{
         label: "Kutanya",
         href: "https://kutanya.com/"
     },]
+}, {
+    "title": "Bootcamp Student · Pijar Camp Academy",
+    "desc": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+    "date": "2020",
+    "links": []
 },
 ]
 
