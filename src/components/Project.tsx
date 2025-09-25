@@ -20,7 +20,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ image, title, desc, stacks, href, links }) => {
     return <div className="flex flex-col-reverse sm:pl-4 sm:pr-6 sm:py-4 rounded-md sm:flex-row gap-8 gap-y-6 group sm:hover:bg-black/25">
-        <div className="w-full max-w-[260px] sm:max-w-[300px] h-fit max-h-[200px] border-2 border-secondary/50 group-hover:border-secondary overflow-hidden">
+        <div className="w-full max-w-[270px] h-fit max-h-[180px] border-2 border-secondary/50 group-hover:border-secondary overflow-hidden">
             <img src={image} alt="" />
         </div>
         <div className="flex-1 min-w-[300px]">
