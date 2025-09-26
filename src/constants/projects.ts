@@ -16,19 +16,19 @@ const projects = [{
     }]
 }, {
     title: "MySIIS Statistic",
-    desc: "Data visualization web app developed to support operational monitoring at IndiHome Team. The platform offers a variety of menus to display performance reports, and resource statistics in an accessible way. With features like interactive dashboards, charts, and geospatial mapping.",
+    desc: "Data visualization web app developed to support operational monitoring at IndiHome Team. The platform offers a variety of menus to display performance reports and support role-based access. Key features include interactive dashboards, dynamic charts, and geospatial mapping.",
     image: "/images/mysiis-statistic.png",
     href: "https://statistic.mysiis.io/",
     stacks: ["js", "react", "vite", "scss", "recoil", "router", "chart", "gmaps", "firebase", "vitest", "query", "form"]
 }, {
     title: "MySIIS Admin",
-    desc: "Web app for managing and monitoring operational data within the MySIIS ecosystem. It provides role-based access, dashboards, and tools to manage users, permissions, and various field data effectively.",
+    desc: "Dashboard app for managing and monitoring user account within the MySIIS ecosystem. It provides comprehensive tools to manage users, permissions, and various field data. The app currently supports approximately 50,000 total users.",
     image: "/images/mysiis-admin.png",
     href: "https://admin.mysiis.io/",
     stacks: ["js", "react", "webpack", "scss", "router", "jest"]
 }, {
     title: "GEARS",
-    desc: "Landing page website built to showcase the capabilities of our data science services across multiple industries, such as retail, education, finance and beyond. It highlights industry-specific use cases, enables visitors to explore tailored insights, and positions the platform as a solution for data-driven decision-making.",
+    desc: "Landing page website built to showcase the capabilities of data science services across multiple industries, such as retail, education, finance and beyond. It highlights industry-specific use cases, enables visitors to explore tailored insights, and positions the platform as a solution for data-driven decision-making.",
     image: "/images/gears.png",
     href: "https://stage.mygears.io/",
     stacks: ["ts", "react", "next", "tailwind"]
