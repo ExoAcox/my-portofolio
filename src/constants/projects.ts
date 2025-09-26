@@ -8,11 +8,11 @@ const projects = [{
     stacks: ["ts", "react", "next", "tailwind", "recoil", "iron", "gmaps", "firebase", "vitest", "query", "form"],
     links: [{
         label: "Doc",
-        href: "/docs/SOP-mySIIS.pdf"
+        href: "/docs/mysiis.pdf"
     },
     {
         label: "Demo",
-        href: "/"
+        href: "https://mysiis-web.vercel.app/fulfillment/odp-view"
     }]
 }, {
     title: "MySIIS Statistic",
@@ -34,13 +34,13 @@ const projects = [{
     stacks: ["ts", "react", "next", "tailwind"]
 }, {
     title: "SIIS CMS",
-    desc: " Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+    desc: "CMS app designed to configure attributes and legends of data layers in the SIIS dashboard, making data visualization more flexible and organized. This platform provides features for managing data in multi-layers support.",
     image: "/images/siis-cms.png",
     href: "https://stage.mygears.io.io/",
     stacks: ["ts", "react", "next", "tailwind", "zustand", "auth"],
     links: [{
         label: "Doc",
-        href: "/"
+        href: "/docs/siis-cms.pdf"
     }]
 }, {
     title: "Royalines",

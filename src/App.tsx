@@ -32,6 +32,11 @@ const App: React.FC = () => {
 
   }, [aboutInView, experienceInView, projectInView, contactInView])
 
+  useEffect(() => {
+    if (import.meta.env.DEV) {
+      document.body.classList.add("debug-screens");
+    }
+  }, [])
 
 
   return <Wrapper contactInView={contactInView}>
