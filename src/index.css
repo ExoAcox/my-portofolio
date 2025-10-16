@@ -11,12 +11,12 @@
     --color-primary: var(--color-slate-100);
     --color-secondary: var(--color-slate-400);
     --color-tertiary: var(--color-sky-300);
-
+    --color-background: var(--color-gray-900)
 }
 
 @layer base {
     body {
-        @apply overflow-x-hidden text-sm md:text-base text-secondary bg-gray-900 antialiased;
+        @apply overflow-x-hidden text-sm md:text-base text-secondary bg-background antialiased;
     }
 
     button {
