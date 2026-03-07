@@ -18,7 +18,7 @@ const projects = [{
 {
     title: "Sistem Informasi Pemenuhan Gizi Nasional",
     desc: "Multi-menu web app developed to support Makan Bergizi Gratis (MBG) program. The platform enables stakeholders to manage and monitor the distribution of nutritious meals for students nationwide, helping ensure accurate data tracking, operational transparency, and more effective program implementation.",
-    image: "/images/sipgn.png",
+    image: "/images/sipgn.jpg",
     href: "https://sipgn.bgn.go.id/",
     stacks: ["ts", "react", "tailwind", "astro", "form", "query"]
 },
