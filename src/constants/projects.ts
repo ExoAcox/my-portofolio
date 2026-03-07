@@ -14,7 +14,15 @@ const projects = [{
         label: "Demo",
         href: "https://mysiis-web.vercel.app/fulfillment/odp-view"
     }]
-}, {
+},
+{
+    title: "Sistem Informasi Pemenuhan Gizi Nasional",
+    desc: "Multi-menu web app developed to support Makan Bergizi Gratis (MBG) program. The platform enables stakeholders to manage and monitor the distribution of nutritious meals for students nationwide, helping ensure accurate data tracking, operational transparency, and more effective program implementation.",
+    image: "/images/sipgn.png",
+    href: "https://sipgn.bgn.go.id/",
+    stacks: ["ts", "react", "tailwind", "astro", "form", "query"]
+},
+{
     title: "MySIIS Statistic",
     desc: "Data visualization web app developed to support operational monitoring at IndiHome Team. The platform offers a variety of menus to display performance reports and support role-based access. Key features include interactive dashboards, dynamic charts, and geospatial mapping.",
     image: "/images/mysiis-statistic.png",

@@ -18,6 +18,10 @@ const stacks = {
         label: "Next.js",
         href: "https://nextjs.org/"
     },
+    astro: {
+        label: "Astro",
+        href: "https://astro.build/"
+    },
     vite: {
         label: "Vite",
         href: "https://vitejs.dev/"

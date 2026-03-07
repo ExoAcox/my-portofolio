@@ -26,9 +26,9 @@ const Card: React.FC<CardProps> = ({ image, title, desc, stacks, href, links }) 
         <div className="flex-1 min-w-[300px]">
             <div className="flex gap-4 items-end justify-between">
                 <a href={href} target="_blank">
-                    <h4 className="flex items-end gap-1 group/link w-fit text-primary group-hover:text-tertiary">
+                    <h4 className="flex gap-1 group/link w-fit text-primary group-hover:text-tertiary">
                         {title}
-                        <HiMiniArrowUpRight className="size-5 transition -translate-y-0.5 group-hover/link:-translate-y-1.5 group-hover/link:translate-x-1.5" />
+                        <HiMiniArrowUpRight className="size-5 shrink-0 transition translate-y-1.5 group-hover/link:translate-y-1 group-hover/link:translate-x-1.5" />
                     </h4>
                 </a>
                 <div className="flex gap-4 text-sm -translate-y-1.5">
