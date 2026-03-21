@@ -93,6 +93,10 @@ const stacks = {
     firebase: {
         label: "Firebase",
         href: "hhttps://firebase.google.com/"
+    },
+    kafka: {
+        label: "Kafka",
+        href: "https://kafka.apache.org/"
     }
 }
 
