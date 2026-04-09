@@ -2,6 +2,7 @@
 
 import experiences from "@constants/experiences";
 import { FaLink } from "react-icons/fa6";
+import { HiArrowNarrowRight } from "react-icons/hi";
 import SectionTitle from "./SectionTitle";
 
 
@@ -48,6 +49,7 @@ const Experience: React.FC<Props> = ({ ref }) => {
                     links={experience.links} />
             })}
         </div>
+        <a href="/docs/anasarifin-resume.pdf" target="_blank" className="mt-4 sm:mt-6 lg:mt-8 lg:mx-6 flex text-base sm:text-lg items-center gap-2 w-fit text-white font-semibold hover:text-tertiary group/link">View My Full Resume <HiArrowNarrowRight className="group-hover/link:translate-x-2 transition" /></a>
     </div>
 }
 

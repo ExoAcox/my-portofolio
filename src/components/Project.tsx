@@ -73,6 +73,7 @@ const Project: React.FC<Props> = ({ ref, contactInView }) => {
                 </Card>
             })}
         </div>
+
     </div>
 }
 

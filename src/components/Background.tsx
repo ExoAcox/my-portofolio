@@ -32,16 +32,12 @@ const Circle: React.FC<Props> = ({ width, height, maxSize, background }) => {
     useEffect(() => {
         x.set((generateRandom(width)))
         y.set((generateRandom(height)))
+        size.set(generateSize())
 
         setInterval(() => {
             x.set((generateRandom(width)))
             y.set((generateRandom(height)))
         }, generateDuration())
-    }, [])
-
-    useEffect(() => {
-
-        size.set(generateSize())
 
         setInterval(() => {
             size.set(generateSize())

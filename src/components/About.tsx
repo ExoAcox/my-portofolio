@@ -15,7 +15,7 @@ const About: React.FC<Props> = ({ ref }) => {
             <br />
             <div className="duration-500 hover:text-primary">Right now, I’m exploring new career opportunities while continuing to take on freelance projects that challenge me creatively and technically. I keep  improving my skills, experimenting with modern tools, and staying ahead in the fast-evolving landscape of web technologies. Ensuring every solution I build is not only reliable today but also ready for the future.</div>
             <br />
-            <div className="duration-500 hover:text-primary">Outside of work, I really enjoying hiking, riding, traveling, and photography interests that keep me inspired and fuel my creativity. While also learning and improving my language skills, especially English and German.</div>
+            <div className="duration-500 hover:text-primary">Outside of work, I really enjoying hiking, riding, traveling, and photography interests that keep me inspired and fuel my creativity. While also learning and improving my english language.</div>
         </div>
     </div>
 }
