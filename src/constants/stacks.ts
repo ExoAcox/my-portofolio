@@ -97,6 +97,10 @@ const stacks = {
     kafka: {
         label: "Kafka",
         href: "https://kafka.apache.org/"
+    },
+    redis: {
+        label: "Redis",
+        href: "https://redis.io/"
     }
 }
 

@@ -20,7 +20,7 @@ const projects = [{
     desc: "Multi-menu web app developed to support Makan Bergizi Gratis (MBG) program. The platform enables stakeholders to manage and monitor the distribution of nutritious meals for students nationwide, helping ensure accurate data tracking, operational transparency, and more effective program implementation.",
     image: "/images/sipgn.jpg",
     href: "https://sipgn.bgn.go.id/",
-    stacks: ["ts", "react", "astro", "tailwind", "form", "query", "kafka"]
+    stacks: ["ts", "react", "astro", "tailwind", "form", "query", "kafka", "redis"]
 },
 {
     title: "MySIIS Statistic",
